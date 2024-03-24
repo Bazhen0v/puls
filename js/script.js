@@ -88,11 +88,11 @@ valideForms('#order form');
 $('input[name=phone]').mask("+7 (999) 999-99-99");
 
 
-/* // Спасибо за заявку окно
+// Спасибо за заявку окно
 	$('[data-modal=thanks]').on('click', function () {
 		$('.overlay, #consultation, #order').fadeOut('fast');
 		$('.overlay, #thanks').fadeIn('slow');
-	}); */
+	});
 
 	$('form').submit(function(e) {
 		e.preventDefault();
